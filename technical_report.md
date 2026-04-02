@@ -317,4 +317,4 @@ jupyter notebook notebooks/march_madness.ipynb
 
 **Basketball analytics reference:** Oliver, D. (2004). *Basketball on Paper*. Brassey's Inc. — source for the Four Factors framework (eFG%, TOV rate, ORB rate, FT rate) and possession estimation formula.
 
-**AI tools used:** Claude (Anthropic) was used as a coding assistant throughout this project to help structure the notebook, debug errors, and write boilerplate feature engineering code. All modeling decisions, interpretations, and written analysis reflect my own understanding and judgment.
+**AI tools used:** Claude (Anthropic) was used to help structure and debug the notebook and assist with feature engineering. All modeling decisions, interpretations, and written analysis reflect my own understanding and judgment.
