@@ -204,11 +204,11 @@ All models share the characteristic of predicting expected winners well but stru
 Feature importance was extracted from Random Forest (`feature_importances_`), XGBoost (gain-based), and Logistic Regression (coefficient magnitudes). See Section 6 of the notebook for full charts.
 
 **Consistent top features across models:**
-1. `SeedDiff` — seed gap between teams; strongest individual predictor
-2. `NetEff_diff` — net efficiency difference; strongest efficiency-based predictor
-3. `WinPct_diff` — win percentage gap
+1. `SeedDiff` — seed gap between teams; strongest individual predictor by a wide margin
+2. `SOS_diff` — strength of schedule difference; second most important feature
+3. `NetEff_diff` — net efficiency difference; strongest efficiency-based predictor
 4. `OffEff_diff` — offensive efficiency gap
-5. `KenPomRank_diff` — KenPom rank difference (where available)
+5. `WinPct_diff` — win percentage gap
 
 **Notable finding:** `TOVRate_diff` and `FTRate_diff` ranked consistently low across all models, suggesting that turnovers and free throw attempts are less predictive of tournament outcomes than efficiency and overall record. This aligns with basketball analytics literature suggesting that efficiency (not volume) is the key discriminator.
 

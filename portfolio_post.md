@@ -64,12 +64,12 @@ The model is good at picking expected winners. It's not good at picking 12-over-
 
 According to the feature importance analysis, the factors that matter most are:
 
-1. **Net efficiency** — the single strongest predictor. Teams that outscore opponents per possession consistently win.
-2. **Seed difference** — a reliable proxy for overall team quality
-3. **Win percentage** — teams that win consistently during the season keep winning
+1. **Seed difference** — by far the strongest predictor. The selection committee's judgment about team quality is hard to beat.
+2. **Strength of schedule** — teams that earned their record against tough competition hold up better in March
+3. **Net efficiency** — the gap between points scored and allowed per possession; the best efficiency-based predictor
 4. **Offensive efficiency** — scoring efficiently matters more than scoring a lot
 
-What matters less than people think: free throw rate and defensive rebounding in isolation. It's the combination of consistent offense and stingy defense that separates tournament teams.
+What matters less than people think: free throw rate and defensive rebounding in isolation. It's the combination of seed, schedule strength, and efficient play that separates tournament teams.
 
 ![Feature Importance - Random Forest](visualizations/feature_importance_rf.png)
 
