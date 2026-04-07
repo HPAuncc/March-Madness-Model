@@ -16,17 +16,9 @@ env/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data (raw data files can be large — download via Kaggle CLI)
+# Data
 data/raw/
-data/processed/
 
 # OS
 .DS_Store
 Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Claude Code
-.claude/
